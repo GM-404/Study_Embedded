@@ -1,0 +1,10 @@
+^H:\STUDY_EMB\STUDY_EMBEDDED\ONE\DAY_5\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/study_emb/Study_Embedded/one/day_5 -BH:/study_emb/Study_Embedded/build --check-stamp-file H:/study_emb/Study_Embedded/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

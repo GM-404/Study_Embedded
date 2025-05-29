@@ -1,0 +1,3 @@
+H:/study_emb/Study_Embedded/build/CMakeFiles/demo.dir
+H:/study_emb/Study_Embedded/build/CMakeFiles/ALL_BUILD.dir
+H:/study_emb/Study_Embedded/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^H:\STUDY_EMB\STUDY_EMBEDDED\BUILD\CMAKEFILES\721F9026C725C7D228B6A27A74DE8331\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/study_emb/Study_Embedded/one/day_5 -BH:/study_emb/Study_Embedded/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/study_emb/Study_Embedded/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
